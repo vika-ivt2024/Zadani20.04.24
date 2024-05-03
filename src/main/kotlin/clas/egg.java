@@ -6,5 +6,5 @@ public class egg {
     var kolichestvo = 25
     var stopimostEGG = cena*kolichestvo
     println("Характеристики яйцо: \n")
-    println("Название: $name, Категория: $kategori, Цена: $cena , Количество на складе: $kolichestvo \n")
+    println("Название: $name, Категория: $kategori, Цена: $cena , Количество на складе: $kolichestvo")
 }

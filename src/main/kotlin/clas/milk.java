@@ -6,5 +6,5 @@ public class milk {
     var kolichestvo = 30
     var stopimostMilk = cena*kolichestvo
     println("Характеристики молоко: \n")
-    println("Название: $name, Категория: $kategori, Цена: $cena , Количество на складе: $kolichestvo \n")
+    println("Название: $name, Категория: $kategori, Цена: $cena , Количество на складе: $kolichestvo")
 }
