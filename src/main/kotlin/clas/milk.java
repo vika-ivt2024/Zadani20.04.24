@@ -1,5 +1,4 @@
 package clas;
-
 public class milk {
     val name = "концерн «Покровский"
     val kategori = "Нормализованное"

@@ -1,5 +1,4 @@
 package clas;
-
 public class hleb {
     val name = "Хлебопек"
     val kategori = "Коврига"

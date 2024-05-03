@@ -1,8 +1,6 @@
 package org.example
 
 import clas.egg
-
-
 fun printInventory(address:milk,address:hleb,address:egg) milk,hleb,egg{
     S=stopimostEGG+stopimostHleb+stopimostMilk
 }

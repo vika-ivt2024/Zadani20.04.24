@@ -1,5 +1,4 @@
 package clas;
-
 public class egg {
     val name = "Окское"
     val kategori = "C2"
