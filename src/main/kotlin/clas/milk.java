@@ -5,7 +5,7 @@ public class milk {
     val kategori = "Нормализованное"
     var cena = 150
     var kolichestvo = 30
-    val stopimostEGG = cena*kolichestvo
+    var stopimostEGG = cena*kolichestvo
     println("Характеристики молоко: /n")
     println("Название: $name, Категория: $kategori, Цена: $cena , Количество на складе: $kolichestvo /n")
 }
