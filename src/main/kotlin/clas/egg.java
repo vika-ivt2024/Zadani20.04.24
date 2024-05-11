@@ -2,9 +2,8 @@ package clas;
 public class egg {
     val name = "Окское"
     val kategori = "C2"
-    var cena = 150
-    var kolichestvo = 25
-    var stopimostEGG = cena*kolichestvo
-    println("Характеристики яйцо: \n")
-    println("Название: $name, Категория: $kategori, Цена: $cena , Количество на складе: $kolichestvo")
+    val cena = 150
+    val kolichestvo = 25
+    val stopimostEGG = cena*kolichestvo
+    return"Характеристики яйцо: \n Название: $name, Категория: $kategori, Цена: $cena , Количество на складе: $kolichestvo"
 }

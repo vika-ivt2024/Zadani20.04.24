@@ -1,22 +1,19 @@
-package org.example
+abstract class Shape {
+    abstract fun calculateArea(): Double
+}
+fun printInventory (clazz: Class<milk>,clazz: Class<hleb>,clazz: Class<egg>: Unit) {
 
-import clas.egg
-fun printInventory(address:milk,address:hleb,address:egg) milk,hleb,egg{
-    var S=stopimostEGG+stopimostHleb+stopimostMilk
 }
-fun totalInventoryValue(address:milk,address:hleb,address:egg) milk,hleb,egg{
+class totalInventoryValue (val stopimostEGG: Double,val stopimostHleb: Double,val stopimostMilk: Double) : Shape(){
+    override fun calculateArea(): Double {
+        return stopimostEGG + stopimostHleb + stopimostMilk
+    }
 }
 
-fun productsByCategory(category: String){
-}
 
 fun main(args: Array<String>) {
-    val print = printInventory(options)
-    val total = totalInventoryValue(options)
-    val products = productsByCategory(options)
-
-    println("Информацию о всех товарах в магазине \n $print \n")
-    println("Общую стоимость всех товаров на складе: $total \n")
-    println("возвращает список товаров определенной категории \n $print")
+    val tovar= printInventory(options)
+    println("Информацию о всех товарах в магазине \n $tovar")
+    println("Общую стоимость всех товаров на складе: {$calculateArea()} \n")
 
 }
